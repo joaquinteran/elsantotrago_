@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>El Santo Trago - Licores y Combos Premium</title>
+  <meta name="description" content="El Santo Trago: Tu tienda premium de bebidas alcohólicas. Combos de Skyy, Red Label, Fernet y más. Envíos en Neuquén, Cipolletti y Plottier." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              // Tonos Violeta/Púrpura Premium
+              50: '#f5f3ff', 100: '#ede9fe', 200: '#ddd6fe', 300: '#c4b5fd', 400: '#a78bfa',
+              500: '#8b5cf6', 600: '#7c3aed', 700: '#6d28d9', 800: '#5b21b6', 900: '#4c1d95', 950: '#2e1065',
+            },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .img-placeholder {
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
+      color: #6366f1; font-size: 3rem; font-weight: bold;
+      overflow: hidden;
+    }
+    .img-card {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* Estilo para el scroll */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #0a0a0a; }
+    ::-webkit-scrollbar-thumb { background: #6d28d9; border-radius: 10px; }
+  </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100 font-sans">
+
+  <!-- Barra de info -->
+  <div class="bg-gradient-to-r from-brand-900 to-brand-600 text-white text-sm border-b border-brand-800">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap items-center justify-between gap-2">
+      <p class="opacity-95 font-medium">✨ ¡Promo Hielo de regalo en combos seleccionados! Neuquén, Cipo y Plottier.</p>
+      <a class="inline-flex items-center gap-2 hover:text-brand-100 transition" target="_blank" href="https://wa.me/5492996316942?text=Hola%20El%20Santo%20Trago!%20Quiero%20consultar%20precios.">
+        <span class="font-bold">WhatsApp Pedidos: 2996316942</span> <span class="text-white/80">→</span>
+      </a>
+    </div>
+  </div>
+
+  <header class="sticky top-0 z-40 backdrop-blur-md supports-[backdrop-filter]:bg-neutral-900/80 border-b border-neutral-800">
+    <nav class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white font-extrabold text-xl shadow-[0_0_15px_rgba(139,92,246,0.5)] group-hover:from-brand-400 group-hover:to-brand-600 transition">ST</span>
+        <span class="font-bold text-2xl tracking-tighter text-white uppercase italic">El Santo <span class="text-brand-500">Trago</span></span>
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-medium text-neutral-300">
+        <a href="#productos" class="hover:text-brand-400 transition">Combos</a>
+        <a href="#productos" class="hover:text-brand-400 transition">Catálogo</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a class="inline-flex items-center px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold shadow-md transition transform hover:scale-105"
+           target="_blank" href="https://wa.me/5492996316942?text=Hola%20El%20Santo%20Trago!%20Quiero%20hacer%20un%20pedido.">
+          Consultar Stock 📲
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden border-b border-neutral-800 py-16 md:py-24">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-brand-900/20 via-transparent to-transparent opacity-50"></div>
+    <div class="relative max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white uppercase italic">
+          Tu Previa <br><span class="text-brand-500 text-6xl md:text-8xl">al día.</span>
+        </h1>
+        <p class="mt-6 text-xl text-neutral-400 max-w-lg leading-relaxed">
+          Armamos los mejores combos de Neuquén. Whisky, Vodka, Fernet y Gin con los mejores mixers. ¡Escribinos y te lo llevamos!
+        </p>
+        <div class="mt-10">
+          <a class="inline-flex items-center px-8 py-4 rounded-2xl bg-brand-600 hover:bg-brand-500 text-white font-black text-lg shadow-[0_0_30px_rgba(139,92,246,0.3)] transition transform hover:-translate-y-1"
+             target="_blank" href="https://wa.me/5492996316942?text=Hola%20El%20Santo%20Trago!%20Me%20interesa%20un%20combo.">
+            Pedir por WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="hidden md:flex justify-center relative">
+          <div class="absolute inset-0 bg-brand-500 blur-[100px] opacity-20 animate-pulse"></div>
+          <div class="relative w-full max-w-md aspect-square bg-neutral-900 rounded-3xl border-2 border-brand-500/30 flex items-center justify-center overflow-hidden shadow-2xl">
+            <img src="assets/imagenes/9d78f316-cd8b-4fdd-afa1-bdcddb4d841d.jpg" alt="Logo El Santo Trago" class="w-full h-full object-contain p-8">
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grilla de Productos -->
+  <main id="productos" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="flex flex-col md:flex-row md:items-center justify-between mb-12 gap-6">
+        <h2 class="text-4xl font-black text-white uppercase tracking-tighter italic border-l-8 border-brand-600 pl-6">Nuestros Combos</h2>
+        <div class="relative w-full md:w-72">
+            <input id="searchInput" class="w-full px-5 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white focus:ring-2 focus:ring-brand-500 outline-none transition" placeholder="¿Qué buscás hoy?">
+        </div>
+    </div>
+
+    <section id="grid" class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Los productos se cargan via JS -->
+    </section>
+
+    <div id="emptyState" class="hidden text-center py-20 text-neutral-500 font-medium italic">
+        No encontramos lo que buscás, pero escribinos al WhatsApp y te lo armamos.
+    </div>
+  </main>
+
+  <footer class="border-t border-neutral-800 bg-black py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h4 class="font-black text-3xl text-white italic uppercase tracking-tighter">El Santo <span class="text-brand-500">Trago</span></h4>
+      <p class="text-neutral-500 mt-2">Neuquén - Cipolletti - Plottier</p>
+      <div class="mt-8 flex justify-center gap-4">
+          <span class="px-4 py-1 rounded-full border border-neutral-800 text-xs text-neutral-400">Efectivo</span>
+          <span class="px-4 py-1 rounded-full border border-neutral-800 text-xs text-neutral-400">Transferencia</span>
+      </div>
+      <p class="text-brand-400 font-bold mt-8 text-xl">WhatsApp: 299 6316942</p>
+      <div class="mt-10 text-[10px] text-neutral-700 uppercase tracking-widest leading-loose">
+        © 2024 El Santo Trago. Beber con moderación. Prohibida la venta a menores de 18 años.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Catálogo -->
+  <script id="PRODUCTS_JSON" type="application/json">
+  [
+    {
+      "id": "combo-1",
+      "name": "Combo Skyy Cosmic",
+      "category": "vodka",
+      "price": 22000,
+      "image": "assets/imagenes/312df9d3-e853-44a8-90de-fbaab9415e72.jpg",
+      "emoji": "🌀",
+      "description": "1 Skyy Cosmic + 3 Speed (Lata). ¡Listo para mezclar!",
+      "featured": true,
+      "consult": true
+    },
+    {
+      "id": "combo-2",
+      "name": "Combo Malibu con jugo",
+      "category": "Alchol",
+      "price": 0,
+      "emoji": "🥃",
+      "image": "assets/imagenes/45b49821-7fe6-49d5-a2b7-fb64c747b4f3.jpg",
+      "description": "1 Botella de Malibu + 2 jugos Baggio.",
+      "featured": true,
+      "consult": true
+    },
+    {
+      "id": "combo-2",
+      "name": "Combo Red Label",
+      "category": "whisky",
+      "price": 32000,
+      "emoji": "🥃",
+      "image": "assets/imagenes/3bc0d2bb-0a6b-4d65-856f-2b3e8b5c9558.jpg",
+      "description": "1 Botella Johnnie Walker Red Label + 4 Red Bull. El combo de los que saben.",
+      "featured": true,
+      "consult": true
+    },
+    {
+      "id": "combo-3",
+      "name": "Combo Branca XL",
+      "category": "fernet",
+      "price": 22000,
+      "emoji": "🦅",
+      "image": "assets/imagenes/ec7e273f-ad90-4d4f-81af-840c00547174.jpg",
+      "description": "Fernet Branca 750ml + Coca Cola 2,25Lt + Hielo. El kit completo.",
+      "featured": true,
+      "consult": true
+    },
+    {
+      "id": "combo-4",
+      "name": "Pack de Coronas 6",
+      "category": "Cerveza",
+      "price": 21000,
+      "image": "assets/imagenes/80877ca1-ebf4-4168-8937-d75cd2b4aeee.jpg",
+      "emoji": "🍺",
+      "description": "Pack de 6 Coronas. El kit completo.",
+      "featured": true,
+      "consult": true
+    },
+    {
+      "id": "drk-001",
+      "name": "Smirnoff + Monster",
+      "category": "Vodka",
+      "price": 18000,
+      "emoji": "💎",
+      "image": "assets/imagenes/ff83c110-647e-49cf-ab10-340dcae8510a.jpg",
+      "description": "Botella de Smirnoff + latas de Monster.",
+      "featured": false,
+      "consult": false
+    },
+    {
+      "id": "drk-002",
+      "name": "Pack de Speed",
+      "category": "Mixer",
+      "price": 16000,
+      "emoji": "⚡",
+      "image": "assets/imagenes/D_NQ_NP_676083-MLA44404323127_122020-O.jpg",
+      "description": "Pack de 6 latas de Speed para tu previa.",
+      "featured": false,
+      "consult": false
+    },
+    {
+      "id": "drk-003",
+      "name": "Botella de Sky saborizado",
+      "category": "Vodka",
+      "price": 9000,
+      "emoji": "🍸",
+      "image": "assets/imagenes/d838d914-e0b8-4f4f-9b25-366f039e9928.jpg",
+      "description": "Botella de Skyy saborizado (consultar sabores disponibles).",
+      "featured": false,
+      "consult": false
+    }
+  ]
+  </script>
+
+  <script>
+    const grid = document.getElementById('grid');
+    const emptyState = document.getElementById('emptyState');
+    const searchInput = document.getElementById('searchInput');
+    let PRODUCTS = [];
+
+    function readProducts() {
+      PRODUCTS = JSON.parse(document.getElementById('PRODUCTS_JSON').textContent);
+    }
+
+    function formatPrice(value) {
+      return new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS' }).format(value);
+    }
+
+    function createCard(p) {
+      // Obtenemos link de la imagen para el mensaje de WhatsApp
+      const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
+      const imageUrl = p.image ? `${baseUrl}${p.image}` : 'Sin foto';
+
+      const messageText = `Hola El Santo Trago! 🥂 
+Me interesa el producto: *${p.name}*
+Link de referencia: ${imageUrl}
+¿Tienen stock disponible?`;
+
+      const msg = encodeURIComponent(messageText);
+      const waLink = `https://wa.me/5492996316942?text=${msg}`;
+      
+      const priceDisplay = p.consult ? 
+        `<span class="text-brand-400 text-lg font-bold uppercase italic">Consultar Precio</span>` : 
+        `<span class="text-white text-2xl font-black">${formatPrice(p.price)}</span>`;
+
+      const displayMedia = (p.image && p.image !== "") 
+        ? `<img src="${p.image}" alt="${p.name}" class="img-card" onerror="this.parentElement.innerHTML='${p.emoji}'">`
+        : p.emoji;
+
+      return `
+        <div class="bg-neutral-900 border border-neutral-800 rounded-3xl overflow-hidden hover:border-brand-500/50 transition-all duration-500 group">
+          <div class="h-64 img-placeholder text-7xl select-none relative">
+            ${displayMedia}
+            <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent opacity-60"></div>
+          </div>
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-3">
+                <h3 class="text-xl font-bold text-white uppercase italic group-hover:text-brand-400 transition-colors">${p.name}</h3>
+                <span class="text-[10px] bg-brand-600 text-white px-3 py-1 rounded-full font-black uppercase tracking-widest">${p.category}</span>
+            </div>
+            <p class="text-neutral-400 text-sm mb-8 leading-relaxed h-10 line-clamp-2">${p.description}</p>
+            <div class="flex items-center justify-between border-t border-neutral-800 pt-6">
+               ${priceDisplay}
+               <a href="${waLink}" target="_blank" class="bg-brand-600 hover:bg-brand-500 text-white font-black px-6 py-3 rounded-xl transition-all transform active:scale-95 shadow-lg">
+                 PEDIR 📲
+               </a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function render(filter = "") {
+      const filtered = PRODUCTS.filter(p => p.name.toLowerCase().includes(filter.toLowerCase()));
+      grid.innerHTML = filtered.map(createCard).join('');
+      emptyState.classList.toggle('hidden', filtered.length > 0);
+    }
+
+    searchInput.addEventListener('input', (e) => render(e.target.value));
+
+    readProducts();
+    render();
+  </script>
+</body>
+</html>
